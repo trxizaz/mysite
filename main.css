@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://i.ibb.co/Zg8xsV5/abstract-3d-digital-art-dark-wallpaper-68a75afcb45caf13aa9a82b089361daf.jpg") no-repeat center;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWay-67RVeZ4TbsDsTvPUT2vK-T77OL7q8ZlGf4eMi8AL-gaFUkch1igu3FCWaYeEuVGTuRvt9PNIOMKLdqtFEnZqv0MISuUlZy1XqQ92PvSqt3zqvlcOB-a8Ljo2jQs38nNQWCNztMo94HQlknnm8iHGKMgLCCf2_KQGGWp6cbfkrgh4KQ0Ka_lMI9Bg/s3264/20230822-171847-64e4a139bc0c1%20(1).webp") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
