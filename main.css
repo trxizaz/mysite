@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://i.ibb.co/B2rMgzy/20230822-174034-64e4a6094af52-1.webp") no-repeat center;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNaMnIYoOYDj0g8bPeQF2RayTQrcjhylGL75Try0qdaf0PxLoPyXfCFxSbFPHgB8gnDVa9_jJg2O8GBArpAt20QJNUEJkf9e9a-PR0V9rAdonZNEE6plx9W7XXrMU6PnpDTsUbXHYQtlnPrNwh2Kya1y9_PtLowk4nUWprbYDo6xgxGZqoGe3QDwvs5xQ/s1920/20230822_181807.webp") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
