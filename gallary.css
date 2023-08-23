@@ -1,0 +1,80 @@
+/* styles.css */
+/* styles.css */
+/* styles.css */
+body.lock-scroll {
+  overflow: hidden;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 5px; /* Decreased gap */
+  margin: 0 10px; /* Add side margins */
+}
+
+.image {
+  position: relative;
+  padding-bottom: 100%;
+  overflow: hidden;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px; /* Rounded corners for the popup */
+  transform: scale(0.8); /* Initial scale for the slow popup effect */
+  opacity: 0; /* Initially hidden */
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Slower transition */
+  position: relative;
+}
+
+.popup-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.close {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+/* styles.css */
+.popup.active .popup-image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  transform: scale(0.8); /* Initial scale for the slow popup effect */
+  opacity: 0; /* Initially hidden */
+  transition: transform 0.5s ease, opacity 0.5s ease, max-width 0.5s ease, max-height 0.5s ease; /* Slower transition */
+}
+
+.popup.active .popup-image.open {
+  transform: scale(1); /* Scale to 100% on popup open */
+  opacity: 1; /* Fade in the image */
+}
